@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(147, 196, 187, 0.5);
+}
+
+header {
+    background-color: rgb(244, 244, 244);
+    height: 60px;
+    color: rgb(10, 65, 53);
+    padding: 0 0 0 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid rgb(10, 65, 53);
+}
+
+.logo {
+    width: fit-content;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(147, 196, 187);
+    width: 500px;
+    height: fit-content;
+    margin: 2.5% auto 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.show_question {
+    flex: 3;
+    background-color: rgba(147, 196, 187, 0.25);
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.options {
+    padding: 0 8px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+input {
+    cursor: pointer;
+}
+
+.options p {
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(244, 244, 244);
+    margin: 0 0 5px 0;
+    padding: 4px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.options p:last-child {
+    margin-right: 0;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.btn {
+    height: 45px;
+    width: 100px;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 12px 0 0 0;
+    box-sizing: border-box;
+    background-color: rgba(147, 196, 187, 0.5);
+    border-radius: 5px;
+    color: rgb(10, 41, 35);
+}
+
+.btn:last-child {
+    margin-right: 0;
+    background-color: rgb(244, 244, 244);
+}
